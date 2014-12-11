@@ -33,7 +33,7 @@ class GO {
 
         // Algorithm Rule: First two digits must be 10, 15 or 20
 
-        if( ! in_array( substr( $number, 0, 2 ), array( '10', '15', '20' ) ) )
+        if( ! in_array( substr( $number, 0, 2 ), array( '10', '11', '15' ) ) )
             return FALSE;
 
         $sum = 0;
